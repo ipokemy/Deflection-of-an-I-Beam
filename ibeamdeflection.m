@@ -11,7 +11,7 @@ t=8e-3;
 L=2; 
 x=0:0.1:L;
 
-% Inertia / Second Area of Moment
+% Inertia 
 I=M(h,b,t,L,x); 
 
 % Vertical Deflection
