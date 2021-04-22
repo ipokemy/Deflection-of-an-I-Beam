@@ -24,7 +24,7 @@ plot(x,V);
 xlabel('length (m)')
 ylabel('vertical deflection (m)')
 
-%Inertia
+% Inertia (Subroutine)
 function I=M(h,b,t,L,x)
 
     if (x>=0 & x<L/2) 
